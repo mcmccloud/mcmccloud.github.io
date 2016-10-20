@@ -2,21 +2,23 @@
 
 
 body {
-		text-align: center;
+	text-align: center;
+	color: #666666;
 	background-color: #ffffff;
-	background-image: url('https://s3.amazonaws.com/HW_Assets/Marketing/HW/Frank/hirshhorn.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url('https://s3.amazonaws.com/HW_Assets/Marketing/HW/Frank/ZigZag.gif'); 
     font-family: Helvetica, sans-serif;
-    margin: 5% 15% 5% 15%;
+    margin: 5% 5% 5% 5%;
 }
 
 
 h1 {
 	font-family: Roboto, Helvetica, Arial, sans-serif;
 	font-weight: 100;
-	color: #000000;
+	color: #666666;
 	font-size: 48px;
+}
+.name {
+	color: #FFFFFF;
 }
 
 h3 {
@@ -27,8 +29,10 @@ h3 {
 	text-transform: uppercase;
 }
 
-#slogan {
-	color: #cc00cc;
+.title {
+	color: #FFFFFF;
+	font-weight: 100;
+	font-size: 18px;
 }
 
 h6 {
@@ -42,13 +46,12 @@ h6 {
 p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
-	line-height: 1.5em;
+	line-height: 1.6em;
 }
 
 
-#name {
-	font-weight: bold;
-	line-height: 14px;
+.intro {
+	color: #ffffff;
 }
 
 
@@ -59,7 +62,7 @@ a {
 }
 
 a:hover {
-	color: #cc00cc;
+	color: #99CCFF;
 }
 
 
