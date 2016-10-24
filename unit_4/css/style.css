@@ -1,28 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 
 
 body {
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #666666;
 	background-color: #ffffff;
-	background-image: url('https://s3.amazonaws.com/HW_Assets/Marketing/HW/Frank/ZigZag.gif'); 
+	background-image: url('../images/ZigZag.gif'); 
     font-family: Helvetica, sans-serif;
-    margin: 5% 5% 5% 5%;
+    margin: 5%;
 }
 
 
 h1 {
-	font-family: Roboto, Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	color: #666666;
 	font-size: 48px;
 }
 .name {
-	color: #FFFFFF;
+	color: #666666;
 }
 
-h3 {
-	font-family: Roboto, Helvetica, Arial, sans-serif;
+h2 {
 	font-weight: 800;
 	font-size: 24px;
 	line-height: 1em;
@@ -30,16 +29,15 @@ h3 {
 }
 
 .title {
-	color: #FFFFFF;
+	color: #666666;
 	font-weight: 100;
 	font-size: 18px;
 }
 
-h6 {
+h3 {
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #000000;
-	margin-bottom: 0px;
 }
 
 
@@ -51,7 +49,7 @@ p {
 
 
 .intro {
-	color: #ffffff;
+	color: #666666;
 }
 
 
