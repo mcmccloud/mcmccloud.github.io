@@ -1,24 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
-
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
 	color: #666666;
 	background-color: #ffffff;
-	background-image: url('../images/ZigZag.gif'); 
-    font-family: Helvetica, sans-serif;
-    margin: 5%;
+	background-image: url('../images/ZigZag.gif');
+	text-align:center;
 }
-
-
+section {
+	padding:5em 0;
+}
 h1 {
 	font-weight: 100;
-	color: #666666;
 	font-size: 48px;
-}
-.name {
-	color: #666666;
 }
 
 h2 {
@@ -29,7 +23,6 @@ h2 {
 }
 
 .title {
-	color: #666666;
 	font-weight: 100;
 	font-size: 18px;
 }
@@ -37,30 +30,41 @@ h2 {
 h3 {
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #000000;
 }
 
 
 p {
 	font-family: 'Roboto Slab', serif;
-	font-size: 16px;
 	line-height: 1.6em;
 }
-
-
-.intro {
-	color: #666666;
-}
-
-
 a {
+	color:inherit;
+}
+nav {
+	text-align:center;
+}
+nav a {
+	display:inline-block;
+	margin: 0 1em;
+	text-decoration:none;
+}
+.cta {
+	background:purple;
 	text-decoration: none;
-	color: #000000;
-
+	color: #fff;
+	padding:1em 2em;
+	display:inline-block;
+	margin-top: 1em;
 }
 
 a:hover {
 	color: #99CCFF;
 }
-
+.wrapper {
+	background:#fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+	max-width:75em;
+	margin:auto;
+	padding:2em;
+}
 
