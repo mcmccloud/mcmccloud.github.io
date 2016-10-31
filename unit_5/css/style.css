@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	color: #666666;
+	background-color: #ffffff;
+	background-image: url('../images/ZigZag2.jpg');
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align:center;
+}
+
+section {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside { 
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 48px;
+	font-weight: 100;
+	padding-bottom: .2em;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 100;
+	line-height: 1em;
+	padding-bottom: 1em;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 700px;
+	text-transform: uppercase;
+}
+
+
+p {
+	font-family: 'Lora', serif;
+	line-height: 1.6em;
+	padding-bottom: 2em;
+}
+
+a {
+	color:inherit;
+}
+
+nav a {
+	display:inline-block;
+	font-weight: 700;
+	margin: 0 1em;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color: #99CCFF;
+}
+
+img {
+	margin: 1em;
+}
+
+.wrapper {
+	background:#fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+	margin:auto;
+	max-width:75em;
+	padding:0em;
+}
+
+.intro {
+	color: #FFF;
+	margin: 0 3em;
+	padding-top: 1em
+}
+
+.project {
+	border: #CCC 1px solid;
+}
+
+.cta {
+	background: #99CC99;
+	color: #fff;
+	display:inline-block;
+	font-weight: 700;
+	margin-top: 1em;
+	padding:1em 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: .5em;
+}
+
+.me {
+	margin: .5em 0 1em 2em;
+}
+
+#splash {
+	background-color: #ff99CC;
+	padding: 5em;
+}
+
+#about h3, p {
+	text-align: left;
+	margin: 0 3em;
+}
