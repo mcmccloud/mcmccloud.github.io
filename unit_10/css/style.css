@@ -6,6 +6,7 @@ body {
 	color: #666666;
 	background-color: #ffffff;
 	background-image: url('../images/ZigZag2.jpg');
+	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	text-align:center;
@@ -72,6 +73,9 @@ section {
 
 .intro {
 	color: #FFF;
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
 }
 
 nav {
@@ -182,7 +186,7 @@ li {
 }
 
 .namenav img {
-	width: 2.5em;
+	width: auto;
 	vertical-align: middle;
 }
 
@@ -211,6 +215,22 @@ li {
 
 .projectdeets {
 	border-bottom: 1px solid #CCC;
+}
+
+.projectdeets h2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.projectdeets h3 {
+	padding-top: 0;
+	padding-bottom: .5em;
+}
+
+.projectdeets p {
+	width: 80%;
+	text-align:justify;
+	margin: 0 auto;
 }
 
 .projectdeets img {
@@ -243,12 +263,27 @@ li {
 	}
 }
 
+@media screen and (max-width: 920px) {
+	.namenav h3 {
+		display: none;
+	}
+	.navigation {
+		padding: 2% 0;
+	}
+	.projectdeets p {
+		width: 90%;
+	}
+}
+
 @media screen and (max-width: 870px) {
 	body {
 		font-size: 16px;
 	}
 	.wrapper {
 		width: 95%;
+	}
+	.intro {
+		width: 100%;
 	}
 	#projects img {
 		width: 46%;
@@ -263,6 +298,9 @@ li {
 	}
 	#about img {
 		display: none;
+	}
+	.projectdeets img {
+		width:90%;
 	}
 }
 
@@ -283,6 +321,18 @@ li {
 	nav a {
 		padding:2%;
 	}
+	.namenav img {
+		display:block;
+	}
+	.navigation {
+		padding: 3% 0 0 0;
+	}
+	.projectdeets p {
+		width: 100%;
+	}
+	.projectdeets img {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -302,9 +352,29 @@ li {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
 	nav a {
 		width: 100%;
+		display:block;
+	}
+	.namenav {
+		text-align:center;
+		width:100%;
+		float:none;
+	}
+	.namenav img {
+		margin: 2% auto;
+		text-align:center;
+		display:block;
+	}
+	.navigation {
+		width:100%;
+		float:none;
+	}
+	.navigation a{
+		width: 100%;
+		margin: 2% auto;
+		text-align:center;
 		display:block;
 	}
 }
